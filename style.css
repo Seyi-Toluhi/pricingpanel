@@ -1,0 +1,109 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+body {
+    background-color: rgb(96, 169, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main_content {
+    background-color: white;
+    width: 100%;
+    height: ;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 35px;
+}
+
+
+
+.pricing-details-content {
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightblue;
+    padding: 10px 0;
+    font-size: smaller;
+}
+
+.pricing-details-content:first-child {
+    border-top: 1px solid lightblue;
+}
+
+.pricing-details-content:last-child {
+    padding-top: 2px;
+}
+
+.pricing_header {
+    color: grey;
+    margin-bottom: 40px;
+    font-size: medium;
+
+}
+
+.pricing_details {
+    color: blue;
+}
+
+.pricing_amount {
+    color: blue;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+button {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: larger;
+    margin-bottom: 25px;
+    color: dodgerblue;
+    cursor: pointer;
+
+}
+
+.pricing_image {
+    max-width: 100%;
+    padding: 10px;
+    border-top: 1px solid lightblue;
+    margin-top: 0;
+}
+
+.pricing_image:first-child {
+    border-top: none;
+}
+
+#second-button {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#third-button:focus {
+    background-color: deepskyblue;
+}
+
+@media (min-width: 900px) {
+    .main_content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .pricing-panel {
+        border-left: 1px solid lightblue;
+        margin-left: 10px;
+    }
+
+    .pricing-panel:first-child {
+        border-left: none
+    }
+}
