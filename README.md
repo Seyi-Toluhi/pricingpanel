@@ -1,1 +1,1 @@
-# pricingpanelppppppppppppp
+# pricingpane
